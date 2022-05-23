@@ -148,7 +148,9 @@ h1 {
 
   
 @media (min-width:360px) and (max-width:991px) {
-    
+    html,body{
+        overflow-x: hidden;
+    }
     .toggle-button{
         display: flex;
     }
@@ -204,11 +206,16 @@ h1 {
     }
 
     .play-btn {
-        width: 100%;
+        border-radius: 75px;
+        align-items: center;
+        width: 80%;
     }
 }
 @media (max-width:360px){
 
+    html,body{
+        overflow-x: hidden;
+    }
     .toggle-button{
         display: flex;
     }
@@ -253,6 +260,12 @@ h1 {
         height: 15rem;
         padding: 0;
         margin: 0 auto;
+    }
+    .play-btn {
+        border-radius: 75px;
+        align-items: center;
+        padding: 15px;
+        width: 90%;
     }
 
 } 
